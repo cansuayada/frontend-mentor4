@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;500;700&family=Josefin+Sans:wght@300;600&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+} 
+
+@media screen  and (min-width:769px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;  
+        width: 60%;
+        margin-top: 5rem;
+
+    }
+
+    .section-header {
+        text-align: left;
+        padding: 2.5rem;
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .header-section h1{
+        color: hsl(179, 62%, 43%) ;
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    .header-section h3 {
+        color: hsl(71, 73%, 54%);
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+    .header-section p {
+        color: hsl(218, 22%, 67%);
+        font-size: 1.2rem;
+    }
+
+    .section-section {
+        display: flex;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        overflow: hidden;
+    }
+
+    .section {
+        width: 50%;
+        text-align: left;
+        padding: 2rem;
+    }
+
+    .price {
+        background-color: hsl(179, 62%, 43%);
+        color: #fff;
+    }
+
+    .price h4 {
+        font-weight: 700;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .price h1 {
+        font-weight: 700;
+    }
+
+    .price>h1>small {
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(204, 43%, 93%);
+    }
+
+    .price p {
+       font-size: 1.2rem;
+       padding-bottom: 1rem;
+    }
+
+    .price button {
+        background-color: hsl(71, 73%, 54%);
+        color: #fff;
+        padding: .8rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        border:none;
+        width: 20rem;
+    }
+
+    .about {
+        background-color: hsl(179, 54%, 53%);
+        color: #fff;
+    }
+
+    .about h4 {
+        font-weight: 700;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+        width: 18rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: grid;
+        padding: 4rem 1.5rem 2rem 1.5rem;
+    }
+
+    .section-header {
+        padding: 1rem;
+        background-color: #fff;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .section-header h1 {
+        color: hsl(179, 62%, 43%);
+        font-weight: 700;
+        padding: 1rem 0 1rem 0;
+        font-size: 1.5rem;
+    }
+    
+    .section-header h3 {
+        color:hsl(71, 73%, 54%);
+        font-weight: 700;
+        font-size: 16px;
+        padding-bottom: 1rem;
+    }
+
+    .header-section p {
+        color: hsl(218, 22%, 67%);
+        line-height: 1.7;
+        font-size: 16px;
+    }
+
+    .section-section {
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        overflow: hidden;
+    }
+
+    .price {
+        background-color:hsl(179, 62%, 43%) ;
+        padding: 1rem;
+        color: #fff;
+    }
+
+    .price h4 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        padding:1rem 0 1rem 0 ;
+    }
+
+    .price h1 {
+        font-weight: 700;
+    }
+
+    .price h1 small {
+       font-size: 16px;
+       font-weight: 400;
+       color: hsl(204, 43%, 93%) ;
+    }
+
+    .price p {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .price button {
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        color: #fff;
+        width: 90%;
+        padding: .7rem;
+        margin-left: 10px;
+        border-radius: 7px;
+        font-weight: 700;
+    }
+
+    .about {
+        background-color: hsl(179, 54%, 53%);
+        color: #fff;
+        padding: 1rem;
+    }
+
+    .about h4 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        padding:1rem 0 1rem 0 ;
+    }
+
+    .about p{
+        color: hsl(204, 43%, 93%);
+        width: 80%;
+        font-size: 1rem;
+    }
+}
